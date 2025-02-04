@@ -1,4 +1,4 @@
-# IISC Bengaluru Hackthon
+# Sarah for IISC Bengaluru Hackthon
 
 The summarization tool first accepts input in three forms: topic title, user-provided content, or uploaded PDF. If a topic is given, relevant descriptions are scraped from Fox News, Fox Business, Fox Sports, and NDTV. Next, the data is fed into a fine-tuned BERT/Facebook summarizer model, followed by keyword extraction using spaCy. The tool then provides a summarized text along with keywords and links. For user-provided content or PDFs, the same process applies, followed by translation to Indian languages and optional voice reading.
 
